@@ -8,7 +8,7 @@ def inside(param):
 
 
 if __name__ == '__main__':
-    actors = ['actor.echo', 'actor.http', 'actor.web']
+    actors = ['actor.echo', 'actor.http', 'actor.web', 'actor.web']
     processes = []
     for actor in actors:
         p = Process(target=inside, args=(actor,))
